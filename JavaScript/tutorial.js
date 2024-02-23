@@ -112,3 +112,18 @@ function rengiDegistir(){
 
 }//Burada ID sahibi olan kesimi degisken adındaki bir değişkene aktarır ve sonrasında atanan fonksiyon ile birlikte classIsmi adındaki class'a sahip olan değerin yazı rengini kırmızı yapar
 
+
+
+//Fonksiyonu JavaScript'te farklı bir formatla tanımlayabilmek de mümkün.
+const selamfonksiyonu = () => console.log("Merhaba")
+//Şeklinde de benzer şekilde selamfonksiyonu adında bir fonksiyon tanımlanabilir
+
+
+
+
+// Aşağıdaki örnekte de bahsi geçen metod ile fonksiyon atanıp bu fonksiyon çağırılarak 3 ile 4'ün toplamına ulaşıldı.
+var topla = (sayi1,sayi2)=>{return sayi1+sayi2}
+let toplam=topla(3,4);
+
+console.log(toplam);
+
